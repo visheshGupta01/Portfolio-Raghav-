@@ -1,0 +1,85 @@
+body{
+    background-color: #4D77FF;
+}
+
+.webpage__navBar{
+    display: flex;
+    background-color: #56BBF1;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.webpage__navBarBranding{
+    display: flex;
+}
+
+.logo{
+    width: 50px;
+    border-radius: 7px;
+    margin-left: 20px;
+    border-style: dashed;
+}
+
+.webpage__navBarTitle{
+    margin-left: 10px;
+}
+
+.webpage__navBarNav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+.nav__link{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.project__box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: white;
+  z-index: 1;
+  border-radius: 15px;
+  margin-top: 20px;
+  background-color: #F2FA5A;
+    margin: 10px;
+  padding: 20px;
+}
+
+.project__box > img{
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.project__line{
+    display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+a{
+    color: #5EE6EB;
+}
+
+.aboutBox{
+    display: flex;
+    background-color: #5EE6EB;
+    border-radius: 7px;
+}
+
+.aboutBox > img{
+    height: 400px;
+    object-fit: contain;
+    margin-right: 20px;
+    border-radius: 7px;
+}
